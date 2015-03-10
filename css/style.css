@@ -33,21 +33,25 @@
     border-width: 2px 0px 2px 0px;
   }
   #titleBox {
-    background-color: gray;
+    background-color: seashell;
+    color: black;
     height: 50px;
-    opacity: .6;
+    opacity: .8;
     border: 2px
     border-color: gray;
     border-radius: 15px;
     /*width: 600px; make this inline to customize to text length*/  
   }
   .titleBoxLeft {
-    margin: 20px auto 10px -50px;
+    margin: 20px auto 10px 21.5%;
+    padding: auto;
   }
   .titleBoxRight {
-    margin: 20px auto 10px 200px;
+    float: right;
+    margin: 20px 22% 10px auto;
   }
   .projectSvg {
+    clear: both;
     display: block;
     width: 720px; 
     margin: 0px auto 0px auto;
