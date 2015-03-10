@@ -1,4 +1,5 @@
   html {
+    min-width: 800px;
   }
   body {
     background-image: url('../img/bg/pvmt.png') ;
@@ -57,9 +58,24 @@
     border-radius: 25px;
     position: relative;
   }
+  h1 {
+    font-family: 'Comfortaa', cursive;
+    padding: 0px 0px 0px 20px;
+  }
   h3 {
     padding: 02px;
     font-size: .9em;
+    font-family: 'McLaren', cursive;
+  }
+  /*icons*/
+  img#github {
+    display: inline;
+    float: right;
+    margin: 10px 0px 0px 0px;
+  } 
+  img#twitter {
+    float: right;
+    margin: 10px 16px 16px 16px;
   }
   p {
     font-size: 2em;  /*1 em is 'current font size' - its relative*/
